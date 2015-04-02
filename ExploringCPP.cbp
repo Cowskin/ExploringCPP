@@ -44,10 +44,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="11_Increment.cpp" />
 		<Unit filename="1_0.cpp" />
 		<Unit filename="2_0.cpp" />
-		<Unit filename="8_0.cpp" />
-		<Unit filename="9_0.cpp" />
+		<Unit filename="8_format.cpp" />
+		<Unit filename="9_10_vector.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

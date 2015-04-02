@@ -14,8 +14,7 @@
 
 TEST(L1_0, read_cin)
 {
-   // Part 1. Read the entire input into text. If the command line names a file,
-   // read that file. Otherwise, read the standard input.
+   // Part 1. Read the entire input into text.
    std::vector<std::string> text; ///< Store the lines of text here
    text.push_back("abc");
    text.push_back("abd");

@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <gtest/gtest.h>
 
-TEST(L9_0, sort_int)
+TEST(L9_L10_0, int_vector_sort_then_loop_output)
 {
   std::vector<int> data{};
   // Store each integer in the vector.
@@ -17,11 +17,25 @@ TEST(L9_0, sort_int)
   std::sort(data.begin(), data.end());
 
   // Print the vector, one number per line.
+  std::cout << "Demo vector size_type :" << '\n';
   for (std::vector<int>::size_type i{0}, end{data.size()}; i != end; ++i)
-    std::cout << data.at(i) << '\n';
+    std::cout << data.at(i) << ' ';
+  std::cout << '\n';
 
+  std::cout << "Demo vector iterator:" << '\n';
+  for(std::vector<int>::iterator  i{data.begin()}, end{data.end()};i != end; ++i)
+    std::cout<< *i<< ' ';
+  std::cout << '\n';
+
+  std::cout << "Demo vector auto (range-based for loop/for-each loop):" << '\n';
+  std::cout << "--better than iterator traverse  (the loop define a hidden iterator, calling its begin() and end()) " << '\n';
   for(auto i: data)
-    std::cout << i << '\n';
+    std::cout << i << ' ';
+  std::cout << '\n';
+
+  for(int i: data)
+    std::cout << i << ' ';
+  std::cout << '\n';
 }
 
 TEST(L9_0, vector_begin_end)
@@ -44,10 +58,4 @@ TEST(L10_0,vector_copy)
     output.resize(input.size());
     std::copy(input.begin(), input.end(), output.begin());
     ASSERT_EQ(input, output);
-}
-
-TEST(L10_0, __11_1_ )
-{
-    //TODO "http://skillport.books24x7.com/assetviewer.aspx?bookid=62115&chunkid=492251071&rowid=205&noteMenuToggle=0&leftMenuState=1";
-    EXPECT_FALSE(true);
 }
