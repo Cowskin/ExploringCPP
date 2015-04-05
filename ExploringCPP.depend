@@ -184,9 +184,10 @@
 	<gtest/gtest.h>
 	<iostream>
 
-1428250796 source:c:\users\liang\documents\share\exploringcpp\11_increment.cpp
+1428253101 source:c:\users\liang\documents\share\exploringcpp\11_increment.cpp
 	<gtest/gtest.h>
 	<vector>
+	<algorithm>
 
 1427934620 source:c:\users\liang\documents\share\exploringcpp\9_10_vector.cpp
 	<iostream>
