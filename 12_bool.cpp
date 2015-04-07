@@ -26,3 +26,17 @@ TEST(L12,bool_assert)
   ASSERT_TRUE (std::cout) ;
   ASSERT_TRUE (std::cin)  ;
 }
+
+TEST(L12, vector_compare)
+{
+    ASSERT_TRUE(std::vector<int>({1,2,3,4}) > std::vector<int>({1,2,3}));
+    ASSERT_TRUE(std::vector<int>({1,2,3,4}) == std::vector<int>({1,2,3,4}));
+    ASSERT_TRUE(std::vector<int>({1,2,3,4}) > std::vector<int>({1,2,3,3}));
+}
+
+TEST(L12, string_compare)
+{
+    ASSERT_TRUE(std::string("1234") > std::string("123"));
+    ASSERT_TRUE(std::string("123") == std::string("123"));
+    ASSERT_TRUE(std::string("1235") > std::string("1234"));
+}
