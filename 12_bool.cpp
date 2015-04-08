@@ -1,5 +1,6 @@
 #include <gtest/gtest.h>
 
+using namespace std;
 TEST(L12,bool_output)
 {
  std::cout << "true=" << true << '\n';
@@ -39,4 +40,17 @@ TEST(L12, string_compare)
     ASSERT_TRUE(std::string("1234") > std::string("123"));
     ASSERT_TRUE(std::string("123") == std::string("123"));
     ASSERT_TRUE(std::string("1235") > std::string("1234"));
+}
+
+TEST(L12, sort_vector)
+{
+    vector<int> input({2,4,1,5,3});
+    for(vector<int>::iterator iter(input.begin()); iter != input.end();++iter)
+    {
+        int value(*iter);
+        vector<int>::iterator pos = std::lower_bound(input.begin(), input.end(), value);
+        input.erase(iter);
+        input.insert(pos, value);
+    }
+    ASSERT_EQ(std::vector<int>({1,2,3,4,5}), input);
 }
