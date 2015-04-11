@@ -201,3 +201,14 @@
 1428507738 source:c:\users\liang\documents\share\exploringcpp\13_compound_stratements.cpp
 	<gtest/gtest.h>
 
+1428600581 source:c:\users\liang\documents\share\exploringcpp\14_io.cpp
+	<gtest/gtest.h>
+	<iostream>
+	<fstream>
+
+1428767871 source:c:\users\liang\documents\share\exploringcpp\15_wordscounter.cpp
+	<map>
+	<iostream>
+	<fstream>
+	<gtest/gtest.h>
+
