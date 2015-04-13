@@ -48,6 +48,7 @@
 		<Unit filename="12_bool.cpp" />
 		<Unit filename="13_Compound_Stratements.cpp" />
 		<Unit filename="14_IO.cpp" />
+		<Unit filename="15_WordsCounter.cpp" />
 		<Unit filename="1_0.cpp" />
 		<Unit filename="2_0.cpp" />
 		<Unit filename="8_format.cpp" />
