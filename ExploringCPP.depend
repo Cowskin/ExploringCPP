@@ -212,9 +212,14 @@
 	<fstream>
 	<gtest/gtest.h>
 
-1428937934 source:c:\users\liang\documents\share\exploringcpp\16_typedef.cpp
+1428938594 source:c:\users\liang\documents\share\exploringcpp\16_typedef.cpp
 	<gtest/gtest.h>
 	<iostream>
 	<map>
 	<string>
+
+1428941951 source:c:\users\liang\documents\share\exploringcpp\17_character.cpp
+	<gtest/gtest.h>
+	<strstream>
+	<iostream>
 
