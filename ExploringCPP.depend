@@ -206,7 +206,7 @@
 	<iostream>
 	<fstream>
 
-1428771325 source:c:\users\liang\documents\share\exploringcpp\15_wordscounter.cpp
+1429057438 source:c:\users\liang\documents\share\exploringcpp\15_wordscounter.cpp
 	<map>
 	<iostream>
 	<fstream>
@@ -218,8 +218,14 @@
 	<map>
 	<string>
 
-1428941951 source:c:\users\liang\documents\share\exploringcpp\17_character.cpp
+1428943423 source:c:\users\liang\documents\share\exploringcpp\17_character.cpp
 	<gtest/gtest.h>
 	<strstream>
 	<iostream>
+
+1429058072 source:c:\users\liang\documents\share\exploringcpp\18_charactercategories.cpp
+	<gtest/gtest.h>
+	<map>
+	<string>
+	<fstream>
 

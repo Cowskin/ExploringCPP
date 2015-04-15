@@ -31,6 +31,7 @@ TEST(L15, WordsCounter)
     {
         cout << setw(longest_size + 5) << left << iter->first << right << iter->second << endl;
     }
+    cout << "the number of words in for explore15.txt is :" <<  words_counter.size() << endl;
 }
 
 TEST(L15, Words_Search)
