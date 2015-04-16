@@ -10,6 +10,10 @@ TEST(L17, Character_Categories_Read)
     ifstream in {"explore15.txt"};
     ASSERT_TRUE(in);
 
+    locale native("");
+    in.imbue(native);
+    cout.imbue(native);
+
     string word;
 
     while(in >> word)
@@ -17,7 +21,7 @@ TEST(L17, Character_Categories_Read)
         string copy{};
         for(auto a: word)
         {
-            if(std::isalnum(a, locale()))
+            if(std::isalnum(a, locale("")))
                 copy.push_back(a);
         }
         if(not copy.empty())
