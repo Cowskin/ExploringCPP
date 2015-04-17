@@ -51,6 +51,8 @@
 		<Unit filename="15_WordsCounter.cpp" />
 		<Unit filename="16_typedef.cpp" />
 		<Unit filename="17_character.cpp" />
+		<Unit filename="18_CharacterCategories.cpp" />
+		<Unit filename="19_Case-folding.cpp" />
 		<Unit filename="1_0.cpp" />
 		<Unit filename="2_0.cpp" />
 		<Unit filename="8_format.cpp" />
