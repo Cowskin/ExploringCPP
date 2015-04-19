@@ -229,3 +229,13 @@
 	<string>
 	<fstream>
 
+1429231288 source:c:\users\liang\documents\share\exploringcpp\19_case-folding.cpp
+	<gtest/gtest.h>
+	<locale>
+	<iostream>
+
+1429456381 source:c:\users\liang\documents\share\exploringcpp\20_21_function.cpp
+	<gtest/gtest.h>
+	<iostream>
+	<vector>
+
