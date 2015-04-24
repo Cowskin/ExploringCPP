@@ -30,7 +30,7 @@ TEST(L17, Character_Categories_Read)
 
     for(auto wd_pair : word_counter)
     {
-        cout << wd_pair.first << '\t' << wd_pair.second << endl;
+        //cout << wd_pair.first << '\t' << wd_pair.second << endl;
     }
     cout << "the number of words in for explore15.txt is :" <<  word_counter.size() << endl;
 }

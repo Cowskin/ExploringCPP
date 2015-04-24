@@ -223,7 +223,7 @@
 	<strstream>
 	<iostream>
 
-1429144783 source:c:\users\liang\documents\share\exploringcpp\18_charactercategories.cpp
+1429835973 source:c:\users\liang\documents\share\exploringcpp\18_charactercategories.cpp
 	<gtest/gtest.h>
 	<map>
 	<string>
@@ -238,4 +238,10 @@
 	<gtest/gtest.h>
 	<iostream>
 	<vector>
+
+1429836051 source:c:\users\liang\documents\share\exploringcpp\22_algorithms.cpp
+	<gtest/gtest.h>
+	<algorithm>
+	<string>
+	<functional>
 
