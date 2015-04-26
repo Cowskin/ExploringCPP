@@ -27,3 +27,16 @@ TEST(L22, transform_erase_removeif)
 
     ASSERT_EQ(result, str);
 }
+
+TEST(L22, sort)
+{
+    vector<int> input{1,4,7,2,3,6,5};
+    vector<int> exp{1,2,3,4,5,6,7};
+
+    sort(input.begin(),input.end());
+    ASSERT_EQ(exp, input);
+
+    sort(input.begin(), input.end(),
+         [](int a, int b){return a < b;});
+    ASSERT_EQ(exp, input);
+}

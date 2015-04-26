@@ -54,6 +54,8 @@
 		<Unit filename="18_CharacterCategories.cpp" />
 		<Unit filename="19_Case-folding.cpp" />
 		<Unit filename="1_0.cpp" />
+		<Unit filename="20_21_function.cpp" />
+		<Unit filename="22_Algorithms.cpp" />
 		<Unit filename="2_0.cpp" />
 		<Unit filename="8_format.cpp" />
 		<Unit filename="9_10_vector.cpp" />
